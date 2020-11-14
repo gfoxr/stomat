@@ -1,0 +1,264 @@
+* {font-family: 'Nunito', sans-serif;}
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+.container
+{
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 20px;
+	width: 100%;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*HEADER*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+header{width: 100%;}
+.header_block
+{
+	border-bottom: 1px solid #1E90FF;
+	position: fixed;
+	width: inherit;
+	background-color: #fff;
+	z-index: 9999;
+	top: 0;
+}
+.header_items
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header_item
+{
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 1px solid #1E90FF;
+	border-radius: 20px;
+	font-weight: 500;
+	color: #000;
+	background-color: #fff;
+}
+.button
+{
+	text-decoration: none;
+	padding: 12px 20px;
+	border: 1px solid #1E90FF;
+	border-radius: 20px;
+	font-weight: 500;
+	color: #000;
+	background-color: #fff;
+}
+.button:hover
+{
+	background-color: #1E90FF;
+	color: #fff;
+	transition: .5s;
+}
+.button:active ,.button:target ,.button:focus
+{
+	background-color: #1E90FF;
+	color: #fff;
+	text-decoration: none;
+	outline: none;
+}
+.header_item:hover
+{
+	background-color: #1E90FF;
+	color: #fff;
+	transition: .5s;
+}
+.logo{width: 60px;}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*MAIN*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.main
+{
+	margin-top: 150px;
+	position: relative;
+	height: 500px;
+	box-shadow: 0 0 10px #1E90FF;
+	padding: 20px;
+	border-radius: 5px;
+	margin-bottom: 80px;
+}
+.main_img
+{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+.main_img img {max-height: 350px;}
+.main_text__title
+{
+	font-size: 58px;
+	line-height: 64px;
+	width: 45%;
+}
+.main_text__disk
+{
+	font-size: 21px;
+	line-height: 22px;
+	opacity: .5;
+	width: 50%;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*FOOOTER*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+footer
+{
+	padding-top: 40px;
+	border-top: 1px solid #1E90FF;	
+}
+footer .container
+{
+	display: flex;
+}
+.footer_list
+{
+	margin-right: 100px;
+}
+.footer_list__item
+{
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	list-style: none;
+}
+.footer_list__item a
+{
+	text-decoration: none;
+	color: #000;
+}
+.footer_list__item a:hover
+{
+	box-shadow: 0 5px 5px -5px #1E90FF;
+	transition: .5s;
+}
+.footer_logo
+{
+	margin-top: 50px;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*ADVANTAGE*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.advantage{margin-bottom: 100px;}
+.advantage_head
+{
+	font-size: 58px;
+	line-height: 64px;
+	text-align: center;
+}
+.advantage_cards
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.advantage_card
+{
+	border: 1px solid #1E90FF;
+	border-radius: 5px;
+	padding: 10px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.advantage_card:hover
+{
+	transform: scale(1.01);
+	transition: .2s;
+}
+.advantage_card__title
+{
+	font-size: 36px;
+}
+.advantage_card__disk
+{
+	font-size: 21px;
+	line-height: 22px;
+	opacity: .5;
+}
+.advantage_card__img img
+{
+	max-height: 300px;
+	max-width: 300px;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*DENTIST_FORM*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.dentist_form form
+{
+	padding: 20px;
+	text-align: center;
+}
+.dentist_form__block
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+	width: 30%;
+	margin: auto;
+}
+.dentist_form__text
+{
+	font-size: 21px;
+	font-weight: bold;
+}
+.dentist_form__input
+{
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #1E90FF;
+	padding: 5px;
+}
+.dentist_form__title
+{
+	text-align: center;
+	font-size: 58px;
+	line-height: 64px;
+}
+.dentist_form__disk
+{
+	text-align: center;
+	margin: 0 auto;
+	font-size: 21px;
+	line-height: 22px;
+	opacity: .5;
+	width: 50%;
+}
+@media (max-width: 1200px) {
+	.header_items
+	{
+		justify-content: flex-start;
+	}
+	.dentist_form__block{width: 40%;}
+	.main_img img {width: 330px;}
+}
+@media (max-width: 768px) {
+	.main_text__title
+	{
+		font-size: 58px;
+		line-height: 64px;
+		width:;
+	}
+}
