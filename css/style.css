@@ -246,19 +246,130 @@ footer .container
 	opacity: .5;
 	width: 50%;
 }
-@media (max-width: 1200px) {
-	.header_items
-	{
-		justify-content: flex-start;
-	}
-	.dentist_form__block{width: 40%;}
-	.main_img img {width: 330px;}
+.workers
+{
+	margin: 100px 0;
 }
-@media (max-width: 768px) {
-	.main_text__title
-	{
-		font-size: 58px;
-		line-height: 64px;
-		width:;
-	}
+.workers_title
+{
+	font-size: 58px;
+	line-height: 64px;
+	font-weight: 500;
+	text-align: left;
 }
+.workers_list
+{
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.workers_list__item
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+.workers_list__item-img
+{
+	width: 260px;
+}
+.workers_list__item-name
+{
+	font-size: 21px;
+	font-weight: 500;
+}
+.workers_list__item-disk
+{
+	opacity: .5;
+}
+.service
+{
+	margin: 100px 0;
+}
+.service_title
+{
+	font-size: 58px;
+	line-height: 64px;
+	font-weight: 500;
+	text-align: left;
+}
+.service_list
+{
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.service_list__item
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-right: 30px;
+}
+.service_list__item-img
+{
+	width: 260px;
+}
+.service_list__item-name
+{
+	font-size: 21px;
+	font-weight: 500;
+}
+.service_list__item-cost
+{
+	opacity: .5;
+}
+.reviews
+{
+	margin: 100px 0;
+}
+.reviews_title
+{
+	font-size: 58px;
+	line-height: 64px;
+	font-weight: 500;
+	text-align: left;
+}
+.reviews_list__item
+{
+	padding: 5px 10px;
+	border: 1px solid #1E90FF;
+	border-radius: 10px;
+	position: relative;
+	margin-bottom: 40px;
+}
+.reviews_list__item-text
+{
+	font-size: 18px;
+	line-height: 22px;
+}
+.reviews_list__item-date
+{
+	position: absolute;
+	right: 10px;
+	bottom: -10px;
+	opacity: .5;
+	font-size: 16px;
+}
+.reviews_form
+{
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.reviews_form__input
+{
+	width: 90%;
+	border-color: #1E90FF;
+	border-radius: 10px;
+	padding: 20px 5px;
+}
+.reviews .see_more
+{
+	margin: 0 auto;
+	display: block;
+	width: 50%;
+}
+
